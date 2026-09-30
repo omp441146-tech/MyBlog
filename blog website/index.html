@@ -1,0 +1,153 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Blog</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h2>MyBlog</h2>
+
+        <div>
+            <a href="#home">Home</a>
+            <a href="#blogs">Blogs</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+
+    <!-- Home -->
+    <section id="home" class="hero">
+
+        <h1>Welcome to My Blog</h1>
+
+        <p>
+            Read simple and interesting articles about
+            technology, education and lifestyle.
+        </p>
+
+        <button onclick="welcomeMessage()">
+            Explore Blogs
+        </button>
+
+    </section>
+
+
+    <!-- Blog Section -->
+    <section id="blogs">
+
+        <h2 class="title">Latest Blogs</h2>
+
+        <div class="blog-container">
+
+            <!-- Blog 1 -->
+            <div class="blog-card">
+
+                <h3>Introduction to HTML</h3>
+
+                <p>
+                    HTML is used to create the basic structure
+                    of a website. It is one of the most important
+                    technologies for web development.
+                </p>
+
+                <button onclick="readBlog()">
+                    Read More
+                </button>
+
+            </div>
+
+
+            <!-- Blog 2 -->
+            <div class="blog-card">
+
+                <h3>Learn CSS</h3>
+
+                <p>
+                    CSS is used to make websites beautiful.
+                    We can change colors, fonts, spacing and
+                    layouts using CSS.
+                </p>
+
+                <button onclick="readBlog()">
+                    Read More
+                </button>
+
+            </div>
+
+
+            <!-- Blog 3 -->
+            <div class="blog-card">
+
+                <h3>JavaScript Basics</h3>
+
+                <p>
+                    JavaScript makes websites interactive.
+                    It can be used to create buttons, forms,
+                    animations and many other features.
+                </p>
+
+                <button onclick="readBlog()">
+                    Read More
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="about">
+
+        <h2>About My Blog</h2>
+
+        <p>
+            MyBlog is a simple blogging website created as
+            a college web development project.
+        </p>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+
+        <h2>Contact Us</h2>
+
+        <p>Email: myblog@example.com</p>
+
+        <button onclick="contactMessage()">
+            Contact
+        </button>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 MyBlog | College Project
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+```
